@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, Search, X } from "lucide-react";
+import { Search, X, Menu } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const Navbar = () => {
@@ -48,10 +48,10 @@ const Navbar = () => {
               onClick={() => { setIsOpen(!isOpen) }}
             >
               {isOpen ? (
-                <x className=" w-5 h-5 text-gray-800" />
+                <X className="w-5 h-5 text-gray-800" />
               ) :
                 (
-                  <menu className="w-5 h-5 text-grey-700 " />
+                  <Menu className="w-5 h-5 text-grey-700" />
                 )
 
               }

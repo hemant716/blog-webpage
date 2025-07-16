@@ -1,4 +1,4 @@
-import { animate, motion } from 'framer-motion';
+import {  motion } from 'framer-motion';
 import Navbar from "./component/Navbar"
 import Hero from './component/Hero';
 import FeaturedPosts from './component/FeaturePost';
